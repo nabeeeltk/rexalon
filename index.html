@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== SEO & META ===== -->
+  <title>Rexalon Digital Solutions — Design. Develop. Deliver.</title>
+  <meta name="description" content="Rexalon Digital Solutions is a full-service digital agency offering mobile apps, web development, custom software, UI/UX design, graphic design, and branding. Design. Develop. Deliver.">
+  <!-- TODO: REPLACE canonical URL with your live domain -->
+  <link rel="canonical" href="https://www.yourdomain.com/">
+  <meta name="theme-color" content="#0A3D9C">
+  <meta name="robots" content="index, follow">
+
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rexalon Digital Solutions — Design. Develop. Deliver.">
+  <meta property="og:description" content="Full-service digital agency: apps, web, software, UI/UX, graphic design & branding.">
+  <!-- TODO: REPLACE og:url and og:image with your live domain and image -->
+  <meta property="og:url" content="https://www.yourdomain.com/">
+  <meta property="og:image" content="https://www.yourdomain.com/assets/og-image.png">
+  <meta property="og:site_name" content="Rexalon Digital Solutions">
+
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rexalon Digital Solutions — Design. Develop. Deliver.">
+  <meta name="twitter:description" content="Full-service digital agency: apps, web, software, UI/UX, graphic design & branding.">
+  <!-- TODO: REPLACE twitter:image with your live image URL -->
+  <meta name="twitter:image" content="https://www.yourdomain.com/assets/og-image.png">
+
+  <!-- ===== Favicon ===== -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- ===== Google Fonts ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+  <!-- ===== Stylesheet ===== -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- ===== JSON-LD Organization Schema ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Rexalon Digital Solutions",
+    "description": "Full-service digital agency offering mobile apps, web development, custom software, UI/UX design, graphic design, and branding.",
+    "url": "https://www.yourdomain.com/",
+    "logo": "https://www.yourdomain.com/assets/logo.svg",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+91-XXXXX-XXXXX",
+      "contactType": "customer service",
+      "email": "hello@yourdomain.com"
+    },
+    "sameAs": [
+      "https://www.facebook.com/PLACEHOLDER",
+      "https://www.instagram.com/PLACEHOLDER",
+      "https://www.linkedin.com/company/PLACEHOLDER",
+      "https://twitter.com/PLACEHOLDER"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===== SKIP TO CONTENT ===== -->
+  <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+  <!-- ============================================================
+       SECTION 1: NAVBAR
+       ============================================================ -->
+  <header class="navbar" id="home" role="banner">
+    <div class="container navbar__container">
+      <!-- Logo — White version (hero/transparent navbar) -->
+      <a href="#home" class="navbar__logo" aria-label="Rexalon Digital Solutions — Home">
+        <svg class="logo-white" viewBox="0 0 220 50" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="180" height="40">
+          <text x="0" y="30" font-family="'Montserrat', sans-serif" font-weight="800" font-size="30" fill="#FFFFFF" letter-spacing="1">Rexalon</text>
+          <text x="1" y="46" font-family="'Playfair Display', serif" font-weight="600" font-size="8.5" fill="rgba(255,255,255,0.75)" letter-spacing="4.5" textLength="140">DIGITAL SOLUTIONS</text>
+        </svg>
+        <!-- Logo — Dark version (scrolled navbar) -->
+        <svg class="logo-dark" viewBox="0 0 220 50" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="180" height="40">
+          <text x="0" y="30" font-family="'Montserrat', sans-serif" font-weight="800" font-size="30" fill="#0A3D9C" letter-spacing="1">Rexalon</text>
+          <text x="1" y="46" font-family="'Playfair Display', serif" font-weight="600" font-size="8.5" fill="#5B6B8C" letter-spacing="4.5" textLength="140">DIGITAL SOLUTIONS</text>
+        </svg>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav aria-label="Main navigation">
+        <ul class="navbar__links" role="list">
+          <li><a href="#home" class="navbar__link active">Home</a></li>
+          <li><a href="#services" class="navbar__link">Services</a></li>
+          <li><a href="#process" class="navbar__link">Process</a></li>
+          <li><a href="#portfolio" class="navbar__link">Portfolio</a></li>
+          <li><a href="#about" class="navbar__link">About</a></li>
+          <li><a href="#contact" class="navbar__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA Button -->
+      <a href="#contact" class="btn btn-primary navbar__cta">Get a Quote</a>
+
+      <!-- Hamburger Button (mobile) -->
+      <button class="navbar__hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Slide-in Menu -->
+    <div class="navbar__overlay" aria-hidden="true"></div>
+    <nav class="navbar__mobile-menu" id="mobile-menu" role="dialog" aria-label="Mobile navigation" aria-modal="true">
+      <button class="navbar__mobile-close" aria-label="Close menu">&times;</button>
+      <ul class="navbar__mobile-links" role="list">
+        <li><a href="#home" class="navbar__mobile-link">Home</a></li>
+        <li><a href="#services" class="navbar__mobile-link">Services</a></li>
+        <li><a href="#process" class="navbar__mobile-link">Process</a></li>
+        <li><a href="#portfolio" class="navbar__mobile-link">Portfolio</a></li>
+        <li><a href="#about" class="navbar__mobile-link">About</a></li>
+        <li><a href="#contact" class="navbar__mobile-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-blue navbar__mobile-cta">Get a Quote</a>
+    </nav>
+  </header>
+
+
+  <!-- ============================================================
+       MAIN CONTENT
+       ============================================================ -->
+  <main id="main-content">
+
+    <!-- ============================================================
+         SECTION 2: HERO
+         ============================================================ -->
+    <section class="hero" id="hero-section">
+      <!-- Background decorative elements -->
+      <div class="hero__bg-grid" aria-hidden="true"></div>
+      <div class="hero__bg-glow hero__bg-glow--1" aria-hidden="true"></div>
+      <div class="hero__bg-glow hero__bg-glow--2" aria-hidden="true"></div>
+
+      <div class="container hero__grid">
+        <!-- Hero Text Content -->
+        <div class="hero__content">
+          <p class="eyebrow reveal">Design. Develop. Deliver.</p>
+          <h1 class="reveal">We Build Digital Experiences That Grow Your Business</h1>
+          <p class="hero__subtitle reveal">From stunning mobile apps and high-performance websites to bold branding and intuitive UI/UX — we turn your vision into digital reality.</p>
+          <div class="hero__ctas reveal">
+            <a href="#contact" class="btn btn-primary">Start Your Project</a>
+            <a href="#portfolio" class="btn btn-secondary">View Our Work</a>
+          </div>
+        </div>
+
+        <!-- Hero Mockups (CSS/SVG layered floating elements) -->
+        <div class="hero__mockups" aria-hidden="true">
+          <!-- Phone Mockup -->
+          <div class="hero__mockup hero__mockup--phone">
+            <svg viewBox="0 0 160 300" fill="none" xmlns="http://www.w3.org/2000/svg" width="160" height="300">
+              <rect width="160" height="300" rx="24" fill="#0B1630"/>
+              <rect x="8" y="40" width="144" height="220" rx="4" fill="#112244"/>
+              <!-- Status bar -->
+              <rect x="50" y="12" width="60" height="6" rx="3" fill="#1a3366"/>
+              <!-- App UI elements -->
+              <rect x="20" y="56" width="80" height="10" rx="3" fill="#3A6FCC"/>
+              <rect x="20" y="74" width="120" height="6" rx="2" fill="#1a3366"/>
+              <rect x="20" y="86" width="100" height="6" rx="2" fill="#1a3366"/>
+              <!-- Card -->
+              <rect x="20" y="104" width="120" height="60" rx="8" fill="#162d5c"/>
+              <circle cx="44" cy="124" r="12" fill="#3A6FCC" opacity="0.5"/>
+              <rect x="64" y="118" width="60" height="6" rx="2" fill="#3A6FCC"/>
+              <rect x="64" y="130" width="40" height="4" rx="2" fill="#1a3366"/>
+              <!-- Chart bars -->
+              <rect x="24" y="176" width="16" height="32" rx="4" fill="#3A6FCC" opacity="0.6"/>
+              <rect x="48" y="184" width="16" height="24" rx="4" fill="#3A6FCC" opacity="0.4"/>
+              <rect x="72" y="168" width="16" height="40" rx="4" fill="#3A6FCC" opacity="0.8"/>
+              <rect x="96" y="180" width="16" height="28" rx="4" fill="#3A6FCC" opacity="0.5"/>
+              <rect x="120" y="172" width="16" height="36" rx="4" fill="#3A6FCC" opacity="0.7"/>
+              <!-- Bottom nav -->
+              <rect x="8" y="264" width="144" height="28" rx="4" fill="#112244"/>
+              <circle cx="40" cy="278" r="4" fill="#3A6FCC"/>
+              <circle cx="80" cy="278" r="4" fill="#5B6B8C"/>
+              <circle cx="120" cy="278" r="4" fill="#5B6B8C"/>
+            </svg>
+          </div>
+
+          <!-- Browser Window Mockup -->
+          <div class="hero__mockup hero__mockup--browser">
+            <svg viewBox="0 0 320 200" fill="none" xmlns="http://www.w3.org/2000/svg" width="320" height="200">
+              <rect width="320" height="200" rx="12" fill="#0B1630"/>
+              <!-- Browser chrome -->
+              <rect y="0" width="320" height="32" rx="12" fill="#112244"/>
+              <circle cx="18" cy="16" r="5" fill="#D32F2F" opacity="0.7"/>
+              <circle cx="34" cy="16" r="5" fill="#FFA726" opacity="0.7"/>
+              <circle cx="50" cy="16" r="5" fill="#66BB6A" opacity="0.7"/>
+              <rect x="70" y="10" width="180" height="12" rx="6" fill="#0B1630"/>
+              <!-- Page content -->
+              <rect x="16" y="44" width="120" height="12" rx="3" fill="#3A6FCC"/>
+              <rect x="16" y="64" width="200" height="6" rx="2" fill="#1a3366"/>
+              <rect x="16" y="76" width="160" height="6" rx="2" fill="#1a3366"/>
+              <!-- Hero image area -->
+              <rect x="16" y="92" width="288" height="80" rx="8" fill="url(#browserGrad)"/>
+              <rect x="32" y="112" width="80" height="10" rx="3" fill="white" opacity="0.9"/>
+              <rect x="32" y="128" width="56" height="8" rx="4" fill="white" opacity="0.6"/>
+              <!-- Cards row -->
+              <rect x="16" y="180" width="88" height="10" rx="3" fill="#162d5c"/>
+              <rect x="116" y="180" width="88" height="10" rx="3" fill="#162d5c"/>
+              <rect x="216" y="180" width="88" height="10" rx="3" fill="#162d5c"/>
+              <defs>
+                <linearGradient id="browserGrad" x1="16" y1="92" x2="304" y2="172" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#0A3D9C"/>
+                  <stop offset="1" stop-color="#061F52"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+
+          <!-- Logo Card Mockup -->
+          <div class="hero__mockup hero__mockup--card">
+            <svg viewBox="0 0 140 100" fill="none" xmlns="http://www.w3.org/2000/svg" width="140" height="100">
+              <rect width="140" height="100" rx="16" fill="#FFFFFF"/>
+              <rect x="16" y="16" width="40" height="40" rx="10" fill="#0A3D9C"/>
+              <text x="36" y="43" font-family="'Montserrat', sans-serif" font-weight="800" font-size="20" fill="white" text-anchor="middle">R</text>
+              <rect x="16" y="68" width="60" height="6" rx="2" fill="#0B1630"/>
+              <rect x="16" y="80" width="80" height="4" rx="2" fill="#B3C5EA"/>
+              <rect x="100" y="20" width="24" height="24" rx="6" fill="#E8EEF7"/>
+              <rect x="106" y="26" width="12" height="12" rx="2" fill="#B3C5EA"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SECTION 3: TRUST STRIP (Counters)
+         ============================================================ -->
+    <!-- <section class="trust-strip" aria-label="Key statistics">
+      <div class="container">
+        <div class="trust-strip__grid">
+          <!-- EDIT NUMBERS HERE: Change data-target to update counter values -->
+          <!-- <div class="trust-strip__item reveal">
+            <!-- TODO: REPLACE with actual project count -->
+            <!-- <span class="counter" data-target="50" data-suffix="+">0</span>
+            <span class="trust-strip__label">Projects Delivered</span> -->
+          <!-- </div> --> -->
+          <!-- <div class="trust-strip__item reveal reveal-delay-1">
+            <!-- TODO: REPLACE with actual client count -->
+            <!-- <span class="counter" data-target="30" data-suffix="+">0</span>
+            <span class="trust-strip__label">Happy Clients</span> -->
+          <!-- </div> --> -->
+          <!-- <div class="trust-strip__item reveal reveal-delay-2">
+            <!-- TODO: REPLACE with actual years -->
+            <!-- <span class="counter" data-target="5" data-suffix="+">0</span>
+            <span class="trust-strip__label">Years of Experience</span>
+          </div> -->
+          <!-- <div class="trust-strip__item reveal reveal-delay-3">
+            <span class="counter" data-target="24" data-suffix="/7">0</span>
+            <span class="trust-strip__label">Support</span>
+          </div> --> -->
+        <!-- </div>
+      </div> -->
+    <!-- </section> --> -->
+
+
+    <!-- ============================================================
+         SECTION 4: SERVICES
+         ============================================================ -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow reveal">What We Do</p>
+          <h2 class="reveal">Our Services</h2>
+          <p class="section-header__subtitle reveal">End-to-end digital solutions tailored to your business needs — from concept to launch and beyond.</p>
+        </div>
+
+        <div class="services__grid">
+          <!-- Service 1: Mobile App Development -->
+          <article class="service-card card reveal">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12" y2="18"/></svg>
+            </div>
+            <h3 class="service-card__title">Mobile App Development</h3>
+            <p class="service-card__desc">Cross-platform apps with Flutter &amp; Dart for Android &amp; iOS. Firebase integration, store publishing, and ongoing support.</p>
+            <a href="#contact" class="service-card__link" aria-label="Learn more about Mobile App Development">Learn more &rarr;</a>
+          </article>
+
+          <!-- Service 2: Web Development -->
+          <article class="service-card card reveal reveal-delay-1">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="service-card__title">Web Development</h3>
+            <p class="service-card__desc">Responsive, fast-loading websites and web apps built with modern technologies. SEO-optimized and mobile-first.</p>
+            <a href="#contact" class="service-card__link" aria-label="Learn more about Web Development">Learn more &rarr;</a>
+          </article>
+
+          <!-- Service 3: Custom Software -->
+          <article class="service-card card reveal reveal-delay-2">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3 class="service-card__title">Custom Software</h3>
+            <p class="service-card__desc">Bespoke CRM, ERP, booking systems, dashboards, and automation tools crafted to streamline your operations.</p>
+            <a href="#contact" class="service-card__link" aria-label="Learn more about Custom Software">Learn more &rarr;</a>
+          </article>
+
+          <!-- Service 4: UI/UX Design -->
+          <article class="service-card card reveal reveal-delay-3">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+            </div>
+            <h3 class="service-card__title">UI/UX Design</h3>
+            <p class="service-card__desc">User-centered design with wireframes, prototypes, and polished interfaces that delight users and drive conversions.</p>
+            <a href="#contact" class="service-card__link" aria-label="Learn more about UI/UX Design">Learn more &rarr;</a>
+          </article>
+
+          <!-- Service 5: Graphic Design -->
+          <article class="service-card card reveal">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3 class="service-card__title">Graphic Design</h3>
+            <p class="service-card__desc">Eye-catching visuals for print and digital — social media graphics, marketing collateral, presentations, and more.</p>
+            <a href="#contact" class="service-card__link" aria-label="Learn more about Graphic Design">Learn more &rarr;</a>
+          </article>
+
+          <!-- Service 6: Branding & Identity -->
+          <article class="service-card card reveal reveal-delay-1">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+            </div>
+            <h3 class="service-card__title">Branding &amp; Identity</h3>
+            <p class="service-card__desc">Complete brand identity packages — logos, style guides, brand voice, and visual language that makes you memorable.</p>
+            <a href="#contact" class="service-card__link" aria-label="Learn more about Branding and Identity">Learn more &rarr;</a>
+          </article>
+
+          <!-- Service 7: Digital Marketing Support -->
+          <article class="service-card card reveal reveal-delay-2">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h3 class="service-card__title">Digital Marketing Support</h3>
+            <p class="service-card__desc">SEO, social media strategy, content planning, and ad campaign support to grow your online presence and reach.</p>
+            <a href="#contact" class="service-card__link" aria-label="Learn more about Digital Marketing Support">Learn more &rarr;</a>
+          </article>
+
+          <!-- Service 8: Support & Maintenance -->
+          <article class="service-card card reveal reveal-delay-3">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="service-card__title">Support &amp; Maintenance</h3>
+            <p class="service-card__desc">Ongoing technical support, bug fixes, updates, and performance monitoring to keep your digital products running smoothly.</p>
+            <a href="#contact" class="service-card__link" aria-label="Learn more about Support and Maintenance">Learn more &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SECTION 5: WHY REXALON / ABOUT
+         ============================================================ -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow reveal">Why Choose Us</p>
+          <h2 class="reveal">Why Rexalon?</h2>
+        </div>
+
+        <div class="about__grid">
+          <!-- Left: Key Points + About Text -->
+          <div class="about__content">
+            <div class="about__points">
+              <div class="about__point reveal">
+                <div class="about__point-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <div>
+                  <h3>One Team for Everything</h3>
+                  <p>App development, web design, branding, and graphics — all under one roof. No juggling multiple vendors.</p>
+                </div>
+              </div>
+
+              <div class="about__point reveal reveal-delay-1">
+                <div class="about__point-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </div>
+                <div>
+                  <h3>Modern &amp; Professional Output</h3>
+                  <p>Clean, contemporary designs that reflect your brand's quality and set you apart from the competition.</p>
+                </div>
+              </div>
+
+              <div class="about__point reveal reveal-delay-2">
+                <div class="about__point-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+                <div>
+                  <h3>Affordable &amp; Flexible Packages</h3>
+                  <p>Solutions that fit your budget without compromising on quality. Scalable packages for businesses of all sizes.</p>
+                </div>
+              </div>
+
+              <div class="about__point reveal reveal-delay-3">
+                <div class="about__point-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <h3>Clear Communication &amp; On-Time Delivery</h3>
+                  <p>Transparent timelines, regular updates, and reliable milestones. We keep our promises.</p>
+                </div>
+              </div>
+
+              <div class="about__point reveal reveal-delay-4">
+                <div class="about__point-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <div>
+                  <h3>Post-Launch Support Included</h3>
+                  <p>We don't disappear after delivery. Every project includes post-launch support to ensure everything runs smoothly.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- About Text -->
+            <div class="about__text reveal">
+              <p>Rexalon Digital Solutions is a full-service digital agency passionate about helping businesses thrive in the digital landscape. We combine creativity with technology to deliver solutions that drive real results.</p>
+            </div>
+
+            <!-- Vision / Mission -->
+            <div class="about__vm reveal">
+              <div class="about__vm-block">
+                <h3>Our Vision</h3>
+                <p>To be the trusted digital partner for ambitious businesses, empowering growth through innovative design and technology.</p>
+              </div>
+              <div class="about__vm-block">
+                <h3>Our Mission</h3>
+                <p>Deliver high-quality, affordable digital solutions with transparency, creativity, and reliability at every step.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: SVG Illustration -->
+          <div class="about__illustration reveal" aria-hidden="true">
+            <svg viewBox="0 0 500 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Dashboard Background -->
+              <rect x="40" y="20" width="360" height="240" rx="20" fill="#E8EEF7"/>
+              <rect x="60" y="44" width="320" height="196" rx="8" fill="white"/>
+              <!-- Dashboard sidebar -->
+              <rect x="60" y="44" width="72" height="196" rx="8" fill="#F5F7FB"/>
+              <rect x="72" y="64" width="48" height="6" rx="3" fill="#B3C5EA"/>
+              <rect x="72" y="80" width="40" height="4" rx="2" fill="#D1DDEF"/>
+              <rect x="72" y="96" width="44" height="4" rx="2" fill="#D1DDEF"/>
+              <rect x="72" y="112" width="36" height="4" rx="2" fill="#D1DDEF"/>
+              <circle cx="80" cy="78" r="2" fill="#0A3D9C"/>
+              <!-- Dashboard chart -->
+              <rect x="148" y="64" width="216" height="80" rx="6" fill="#F5F7FB"/>
+              <polyline points="164,124 188,108 212,116 236,92 260,100 284,80 308,88 332,72 348,76" stroke="#0A3D9C" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M164,124 188,108 212,116 236,92 260,100 284,80 308,88 332,72 348,76 348,136 164,136Z" fill="#0A3D9C" opacity="0.08"/>
+              <!-- Dashboard cards -->
+              <rect x="148" y="156" width="100" height="72" rx="8" fill="#0A3D9C"/>
+              <text x="168" y="180" font-family="'Montserrat',sans-serif" font-size="9" fill="rgba(255,255,255,0.7)">Revenue</text>
+              <text x="168" y="200" font-family="'Montserrat',sans-serif" font-weight="700" font-size="16" fill="white">+24%</text>
+              <rect x="264" y="156" width="100" height="72" rx="8" fill="#E8EEF7"/>
+              <text x="284" y="180" font-family="'Montserrat',sans-serif" font-size="9" fill="#5B6B8C">Users</text>
+              <text x="284" y="200" font-family="'Montserrat',sans-serif" font-weight="700" font-size="16" fill="#0B1630">1,247</text>
+
+              <!-- Phone overlay -->
+              <rect x="320" y="180" width="120" height="220" rx="18" fill="#0B1630" stroke="#1a3366" stroke-width="2"/>
+              <rect x="332" y="210" width="96" height="160" rx="4" fill="#112244"/>
+              <circle cx="380" cy="200" r="3" fill="#1a3366"/>
+              <!-- Phone content -->
+              <rect x="342" y="222" width="76" height="8" rx="3" fill="#3A6FCC"/>
+              <rect x="342" y="238" width="60" height="4" rx="2" fill="#1a3366"/>
+              <rect x="342" y="254" width="76" height="44" rx="6" fill="#162d5c"/>
+              <circle cx="362" cy="272" r="8" fill="#3A6FCC" opacity="0.4"/>
+              <rect x="376" y="268" width="32" height="4" rx="2" fill="#3A6FCC"/>
+              <rect x="342" y="310" width="36" height="24" rx="4" fill="#3A6FCC" opacity="0.3"/>
+              <rect x="384" y="310" width="36" height="24" rx="4" fill="#0A3D9C" opacity="0.3"/>
+              <rect x="342" y="346" width="76" height="16" rx="8" fill="#0A3D9C"/>
+
+              <!-- Design Tools -->
+              <rect x="20" y="280" width="140" height="140" rx="16" fill="white" stroke="#E8EEF7" stroke-width="2"/>
+              <!-- Color palette -->
+              <circle cx="56" cy="316" r="14" fill="#0A3D9C"/>
+              <circle cx="88" cy="316" r="14" fill="#061F52"/>
+              <circle cx="120" cy="316" r="14" fill="#B3C5EA"/>
+              <!-- Pen tool icon -->
+              <path d="M60,350 L80,340 L100,350 L80,390 Z" fill="#E8EEF7" stroke="#B3C5EA" stroke-width="1.5"/>
+              <circle cx="80" cy="360" r="4" fill="#0A3D9C"/>
+              <!-- Type symbol -->
+              <text x="120" y="380" font-family="'Playfair Display',serif" font-size="28" fill="#0A3D9C" font-weight="600">Aa</text>
+
+              <!-- Floating elements -->
+              <circle cx="440" cy="60" r="24" fill="#0A3D9C" opacity="0.1"/>
+              <circle cx="440" cy="60" r="12" fill="#0A3D9C" opacity="0.2"/>
+              <rect x="20" y="60" width="10" height="10" rx="2" fill="#B3C5EA" opacity="0.6" transform="rotate(45,25,65)"/>
+              <circle cx="480" cy="300" r="6" fill="#B3C5EA" opacity="0.5"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SECTION 6: PROCESS
+         ============================================================ -->
+    <section class="process section" id="process">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow reveal">How We Work</p>
+          <h2 class="reveal">Our Process</h2>
+          <p class="section-header__subtitle reveal">A proven seven-step approach that turns ideas into exceptional digital products.</p>
+        </div>
+
+        <div class="process__stepper">
+          <!-- Connecting line -->
+          <div class="process__line" aria-hidden="true">
+            <div class="process__line-fill"></div>
+          </div>
+
+          <!-- Step 1: Discover -->
+          <div class="process__step reveal" data-step="1">
+            <div class="process__step-number" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <h3 class="process__step-title">Discover</h3>
+            <p class="process__step-desc">Understand your goals, audience, and challenges.</p>
+          </div>
+
+          <!-- Step 2: Plan -->
+          <div class="process__step reveal reveal-delay-1" data-step="2">
+            <div class="process__step-number" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <h3 class="process__step-title">Plan</h3>
+            <p class="process__step-desc">Define scope, timeline, and technical approach.</p>
+          </div>
+
+          <!-- Step 3: Design -->
+          <div class="process__step reveal reveal-delay-2" data-step="3">
+            <div class="process__step-number" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><circle cx="13.5" cy="6.5" r="2.5"/><path d="M17.3 20.7a2.5 2.5 0 0 0-.7-4.2L12 14l-4.6 2.5a2.5 2.5 0 0 0-.7 4.2"/><path d="M9.2 7.8 2 18"/><path d="M14.8 7.8 22 18"/></svg>
+            </div>
+            <h3 class="process__step-title">Design</h3>
+            <p class="process__step-desc">Create wireframes, prototypes, and visual designs.</p>
+          </div>
+
+          <!-- Step 4: Develop -->
+          <div class="process__step reveal reveal-delay-3" data-step="4">
+            <div class="process__step-number" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3 class="process__step-title">Develop</h3>
+            <p class="process__step-desc">Build with clean code and best practices.</p>
+          </div>
+
+          <!-- Step 5: Test -->
+          <div class="process__step reveal reveal-delay-4" data-step="5">
+            <div class="process__step-number" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="process__step-title">Test</h3>
+            <p class="process__step-desc">Thorough QA across devices and browsers.</p>
+          </div>
+
+          <!-- Step 6: Launch -->
+          <div class="process__step reveal reveal-delay-5" data-step="6">
+            <div class="process__step-number" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+            </div>
+            <h3 class="process__step-title">Launch</h3>
+            <p class="process__step-desc">Deploy and go live with full support.</p>
+          </div>
+
+          <!-- Step 7: Support -->
+          <div class="process__step reveal reveal-delay-6" data-step="7">
+            <div class="process__step-number" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="process__step-title">Support</h3>
+            <p class="process__step-desc">Ongoing maintenance and continuous improvement.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SECTION 7: TECHNOLOGIES
+         ============================================================ -->
+    <section class="technologies section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow reveal">Our Tech Stack</p>
+          <h2 class="reveal">Technologies We Use</h2>
+        </div>
+
+        <div class="tech__grid">
+          <!-- Flutter -->
+          <div class="tech-tile reveal" role="img" aria-label="Flutter">
+            <div class="tech-tile__icon">
+              <svg viewBox="0 0 48 48" width="48" height="48"><path d="M28 4L8 24l6.2 6.2L38 6.4V4H28z" fill="#4FC3F7"/><path d="M14.2 30.2L8 24l6.2-6.2 12.4 12.4-6.2 6.2-6.2-6.2z" fill="#0A3D9C"/><path d="M20.4 36.4l6.2 6.2L38 31v-7.6L20.4 36.4z" fill="#4FC3F7"/><path d="M20.4 36.4L26.6 30.2 38 23.4V31L26.6 42.6l-6.2-6.2z" fill="#0A3D9C" opacity="0.3"/></svg>
+            </div>
+            <span class="tech-tile__name">Flutter</span>
+          </div>
+
+          <!-- Dart -->
+          <div class="tech-tile reveal reveal-delay-1" role="img" aria-label="Dart">
+            <div class="tech-tile__icon">
+              <svg viewBox="0 0 48 48" width="48" height="48"><path d="M12 6l-6 6v24l6 6h24l6-6V12l-6-6H12z" fill="#4FC3F7" opacity="0.3"/><text x="24" y="30" font-family="'Montserrat',sans-serif" font-weight="800" font-size="16" fill="#0A3D9C" text-anchor="middle">D</text></svg>
+            </div>
+            <span class="tech-tile__name">Dart</span>
+          </div>
+
+          <!-- React -->
+          <div class="tech-tile reveal reveal-delay-2" role="img" aria-label="React">
+            <div class="tech-tile__icon">
+              <svg viewBox="0 0 48 48" width="48" height="48"><circle cx="24" cy="24" r="4" fill="#0A3D9C"/><ellipse cx="24" cy="24" rx="20" ry="8" fill="none" stroke="#4FC3F7" stroke-width="1.5"/><ellipse cx="24" cy="24" rx="20" ry="8" fill="none" stroke="#4FC3F7" stroke-width="1.5" transform="rotate(60 24 24)"/><ellipse cx="24" cy="24" rx="20" ry="8" fill="none" stroke="#4FC3F7" stroke-width="1.5" transform="rotate(120 24 24)"/></svg>
+            </div>
+            <span class="tech-tile__name">React</span>
+          </div>
+
+          <!-- Node.js -->
+          <div class="tech-tile reveal reveal-delay-3" role="img" aria-label="Node.js">
+            <div class="tech-tile__icon">
+              <svg viewBox="0 0 48 48" width="48" height="48"><path d="M24 6L8 15v18l16 9 16-9V15L24 6z" fill="#4FC3F7" opacity="0.2" stroke="#0A3D9C" stroke-width="1.5"/><text x="24" y="30" font-family="'Montserrat',sans-serif" font-weight="700" font-size="12" fill="#0A3D9C" text-anchor="middle">N</text></svg>
+            </div>
+            <span class="tech-tile__name">Node.js</span>
+          </div>
+
+          <!-- Firebase -->
+          <div class="tech-tile reveal" role="img" aria-label="Firebase">
+            <div class="tech-tile__icon">
+              <svg viewBox="0 0 48 48" width="48" height="48"><path d="M14 40L18 8l8 16-4 6 12-22L14 40z" fill="#4FC3F7"/><path d="M14 40l20-8L34 8 26 24l-4-6L14 40z" fill="#0A3D9C" opacity="0.3"/></svg>
+            </div>
+            <span class="tech-tile__name">Firebase</span>
+          </div>
+
+          <!-- Figma -->
+          <div class="tech-tile reveal reveal-delay-1" role="img" aria-label="Figma">
+            <div class="tech-tile__icon">
+              <svg viewBox="0 0 48 48" width="48" height="48"><rect x="12" y="6" width="12" height="12" rx="6" fill="#4FC3F7"/><rect x="24" y="6" width="12" height="12" rx="6" fill="#0A3D9C" opacity="0.6"/><rect x="12" y="18" width="12" height="12" rx="6" fill="#0A3D9C"/><circle cx="30" cy="24" r="6" fill="#4FC3F7" opacity="0.6"/><rect x="12" y="30" width="12" height="12" rx="6" fill="#0A3D9C" opacity="0.4"/></svg>
+            </div>
+            <span class="tech-tile__name">Figma</span>
+          </div>
+
+          <!-- Photoshop -->
+          <div class="tech-tile reveal reveal-delay-2" role="img" aria-label="Photoshop">
+            <div class="tech-tile__icon">
+              <svg viewBox="0 0 48 48" width="48" height="48"><rect x="6" y="6" width="36" height="36" rx="6" fill="#0A3D9C" opacity="0.15"/><text x="24" y="32" font-family="'Montserrat',sans-serif" font-weight="800" font-size="18" fill="#0A3D9C" text-anchor="middle">Ps</text></svg>
+            </div>
+            <span class="tech-tile__name">Photoshop</span>
+          </div>
+
+          <!-- Illustrator -->
+          <div class="tech-tile reveal reveal-delay-3" role="img" aria-label="Illustrator">
+            <div class="tech-tile__icon">
+              <svg viewBox="0 0 48 48" width="48" height="48"><rect x="6" y="6" width="36" height="36" rx="6" fill="#4FC3F7" opacity="0.2"/><text x="24" y="32" font-family="'Montserrat',sans-serif" font-weight="800" font-size="18" fill="#0A3D9C" text-anchor="middle">Ai</text></svg>
+            </div>
+            <span class="tech-tile__name">Illustrator</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SECTION 8: PORTFOLIO
+         ============================================================ -->
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow reveal">Our Work</p>
+          <h2 class="reveal">Featured Projects</h2>
+          <p class="section-header__subtitle reveal">A selection of recent projects showcasing our expertise across apps, web, branding, and design.</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="portfolio__filters reveal" role="group" aria-label="Filter projects by category">
+          <button class="portfolio__filter-btn" data-filter="all" aria-pressed="true">All</button>
+          <button class="portfolio__filter-btn" data-filter="apps" aria-pressed="false">Apps</button>
+          <button class="portfolio__filter-btn" data-filter="web" aria-pressed="false">Web</button>
+          <button class="portfolio__filter-btn" data-filter="branding" aria-pressed="false">Branding</button>
+          <button class="portfolio__filter-btn" data-filter="graphics" aria-pressed="false">Graphics</button>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="portfolio__grid">
+          <!-- PLACEHOLDER PROJECT 1 -->
+          <article class="portfolio-card reveal" data-category="apps">
+            <div class="portfolio-card__bg portfolio-card__bg--1" aria-hidden="true">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                <rect width="400" height="300" fill="url(#pg1)"/>
+                <rect x="140" y="60" width="120" height="200" rx="20" fill="rgba(255,255,255,0.12)"/>
+                <rect x="155" y="90" width="90" height="140" rx="4" fill="rgba(255,255,255,0.08)"/>
+                <defs><linearGradient id="pg1" x1="0" y1="0" x2="400" y2="300"><stop stop-color="#0A3D9C"/><stop offset="1" stop-color="#061F52"/></linearGradient></defs>
+              </svg>
+            </div>
+            <div class="portfolio-card__overlay">
+              <!-- TODO: REPLACE with actual project details -->
+              <span class="portfolio-card__cat">Mobile App</span>
+              <h3 class="portfolio-card__title">[Project Name]</h3>
+              <a href="#" class="portfolio-card__link" aria-label="View project: Project Name placeholder">View project &rarr;</a>
+            </div>
+          </article>
+
+          <!-- PLACEHOLDER PROJECT 2 -->
+          <article class="portfolio-card reveal reveal-delay-1" data-category="web">
+            <div class="portfolio-card__bg portfolio-card__bg--2" aria-hidden="true">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                <rect width="400" height="300" fill="url(#pg2)"/>
+                <rect x="40" y="40" width="320" height="200" rx="12" fill="rgba(255,255,255,0.1)"/>
+                <rect x="40" y="40" width="320" height="28" rx="12" fill="rgba(255,255,255,0.05)"/>
+                <circle cx="58" cy="54" r="5" fill="rgba(255,255,255,0.15)"/>
+                <circle cx="74" cy="54" r="5" fill="rgba(255,255,255,0.15)"/>
+                <circle cx="90" cy="54" r="5" fill="rgba(255,255,255,0.15)"/>
+                <defs><linearGradient id="pg2" x1="0" y1="300" x2="400" y2="0"><stop stop-color="#061F52"/><stop offset="1" stop-color="#0847B5"/></linearGradient></defs>
+              </svg>
+            </div>
+            <div class="portfolio-card__overlay">
+              <!-- TODO: REPLACE with actual project details -->
+              <span class="portfolio-card__cat">Website</span>
+              <h3 class="portfolio-card__title">[Project Name]</h3>
+              <a href="#" class="portfolio-card__link" aria-label="View project: Project Name placeholder">View project &rarr;</a>
+            </div>
+          </article>
+
+          <!-- PLACEHOLDER PROJECT 3 -->
+          <article class="portfolio-card reveal reveal-delay-2" data-category="branding">
+            <div class="portfolio-card__bg portfolio-card__bg--3" aria-hidden="true">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                <rect width="400" height="300" fill="url(#pg3)"/>
+                <rect x="120" y="80" width="160" height="140" rx="16" fill="rgba(255,255,255,0.12)"/>
+                <rect x="150" y="108" width="40" height="40" rx="10" fill="rgba(255,255,255,0.2)"/>
+                <rect x="150" y="164" width="80" height="8" rx="4" fill="rgba(255,255,255,0.15)"/>
+                <rect x="150" y="180" width="60" height="6" rx="3" fill="rgba(255,255,255,0.1)"/>
+                <defs><linearGradient id="pg3" x1="0" y1="0" x2="400" y2="300"><stop stop-color="#0847B5"/><stop offset="1" stop-color="#0A3D9C"/></linearGradient></defs>
+              </svg>
+            </div>
+            <div class="portfolio-card__overlay">
+              <!-- TODO: REPLACE with actual project details -->
+              <span class="portfolio-card__cat">Branding</span>
+              <h3 class="portfolio-card__title">[Project Name]</h3>
+              <a href="#" class="portfolio-card__link" aria-label="View project: Project Name placeholder">View project &rarr;</a>
+            </div>
+          </article>
+
+          <!-- PLACEHOLDER PROJECT 4 -->
+          <article class="portfolio-card reveal" data-category="apps">
+            <div class="portfolio-card__bg portfolio-card__bg--4" aria-hidden="true">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                <rect width="400" height="300" fill="url(#pg4)"/>
+                <rect x="100" y="50" width="100" height="180" rx="16" fill="rgba(255,255,255,0.1)"/>
+                <rect x="210" y="70" width="100" height="180" rx="16" fill="rgba(255,255,255,0.07)"/>
+                <defs><linearGradient id="pg4" x1="400" y1="0" x2="0" y2="300"><stop stop-color="#0A3D9C"/><stop offset="1" stop-color="#041538"/></linearGradient></defs>
+              </svg>
+            </div>
+            <div class="portfolio-card__overlay">
+              <!-- TODO: REPLACE with actual project details -->
+              <span class="portfolio-card__cat">Mobile App</span>
+              <h3 class="portfolio-card__title">[Project Name]</h3>
+              <a href="#" class="portfolio-card__link" aria-label="View project: Project Name placeholder">View project &rarr;</a>
+            </div>
+          </article>
+
+          <!-- PLACEHOLDER PROJECT 5 -->
+          <article class="portfolio-card reveal reveal-delay-1" data-category="graphics">
+            <div class="portfolio-card__bg portfolio-card__bg--5" aria-hidden="true">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                <rect width="400" height="300" fill="url(#pg5)"/>
+                <circle cx="200" cy="150" r="80" fill="rgba(255,255,255,0.08)"/>
+                <circle cx="200" cy="150" r="50" fill="rgba(255,255,255,0.06)"/>
+                <polygon points="200,100 230,170 170,170" fill="rgba(255,255,255,0.1)"/>
+                <defs><linearGradient id="pg5" x1="0" y1="0" x2="400" y2="300"><stop stop-color="#3A6FCC"/><stop offset="1" stop-color="#061F52"/></linearGradient></defs>
+              </svg>
+            </div>
+            <div class="portfolio-card__overlay">
+              <!-- TODO: REPLACE with actual project details -->
+              <span class="portfolio-card__cat">Graphics</span>
+              <h3 class="portfolio-card__title">[Project Name]</h3>
+              <a href="#" class="portfolio-card__link" aria-label="View project: Project Name placeholder">View project &rarr;</a>
+            </div>
+          </article>
+
+          <!-- PLACEHOLDER PROJECT 6 -->
+          <article class="portfolio-card reveal reveal-delay-2" data-category="web">
+            <div class="portfolio-card__bg portfolio-card__bg--6" aria-hidden="true">
+              <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                <rect width="400" height="300" fill="url(#pg6)"/>
+                <rect x="60" y="60" width="280" height="180" rx="10" fill="rgba(255,255,255,0.08)"/>
+                <rect x="60" y="60" width="280" height="24" rx="10" fill="rgba(255,255,255,0.04)"/>
+                <rect x="80" y="100" width="120" height="8" rx="4" fill="rgba(255,255,255,0.12)"/>
+                <rect x="80" y="116" width="80" height="6" rx="3" fill="rgba(255,255,255,0.08)"/>
+                <rect x="80" y="140" width="240" height="80" rx="6" fill="rgba(255,255,255,0.06)"/>
+                <defs><linearGradient id="pg6" x1="200" y1="0" x2="200" y2="300"><stop stop-color="#0847B5"/><stop offset="1" stop-color="#061F52"/></linearGradient></defs>
+              </svg>
+            </div>
+            <div class="portfolio-card__overlay">
+              <!-- TODO: REPLACE with actual project details -->
+              <span class="portfolio-card__cat">Website</span>
+              <h3 class="portfolio-card__title">[Project Name]</h3>
+              <a href="#" class="portfolio-card__link" aria-label="View project: Project Name placeholder">View project &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SECTION 9: INDUSTRIES
+         ============================================================ -->
+    <section class="industries section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow reveal">Who We Serve</p>
+          <h2 class="reveal">Industries We Work With</h2>
+        </div>
+
+        <div class="industries__pills reveal">
+          <span class="industry-pill">Travel &amp; Tourism</span>
+          <span class="industry-pill">Retail &amp; E-commerce</span>
+          <span class="industry-pill">Food &amp; Hospitality</span>
+          <span class="industry-pill">Education</span>
+          <span class="industry-pill">Events</span>
+          <span class="industry-pill">Finance</span>
+          <span class="industry-pill">Startups &amp; SMEs</span>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SECTION 10: PRICING
+         ============================================================ -->
+    
+
+
+    <!-- ============================================================
+         SECTION 11: TESTIMONIALS
+         ============================================================ -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow reveal">Client Feedback</p>
+          <h2 class="reveal">What Our Clients Say</h2>
+        </div>
+
+        <div class="testimonials__carousel reveal" aria-label="Client testimonials" role="region">
+          <div class="testimonials__track">
+            <!-- PLACEHOLDER TESTIMONIAL 1 -->
+            <div class="testimonial-slide" role="group" aria-roledescription="slide" aria-label="Testimonial 1 of 3">
+              <blockquote class="testimonial-card">
+                <svg class="testimonial-card__quote-icon" viewBox="0 0 24 24" fill="currentColor" width="32" height="32" aria-hidden="true"><path d="M11 7V4H4v7h3c0 2.21-1.79 4-4 4v3c3.87 0 7-3.13 7-7h-3V7h4zm9 0V4h-7v7h3c0 2.21-1.79 4-4 4v3c3.87 0 7-3.13 7-7h-3V7h4z" opacity="0.15"/></svg>
+                <!-- TODO: REPLACE with actual testimonial -->
+                <p class="testimonial-card__text">"Rexalon transformed our online presence completely. The team delivered a stunning website and mobile app that exceeded our expectations. Professional, responsive, and incredibly talented."</p>
+                <footer class="testimonial-card__author">
+                  <div class="testimonial-card__avatar" aria-hidden="true">
+                    <svg viewBox="0 0 40 40" width="40" height="40"><circle cx="20" cy="20" r="20" fill="#E8EEF7"/><circle cx="20" cy="16" r="7" fill="#B3C5EA"/><path d="M6 36c0-8 6-14 14-14s14 6 14 14" fill="#B3C5EA"/></svg>
+                  </div>
+                  <div>
+                    <!-- TODO: REPLACE with actual client info -->
+                    <cite class="testimonial-card__name">[Client Name]</cite>
+                    <p class="testimonial-card__role">[Role], [Company Name]</p>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+
+            <!-- PLACEHOLDER TESTIMONIAL 2 -->
+            <div class="testimonial-slide" role="group" aria-roledescription="slide" aria-label="Testimonial 2 of 3">
+              <blockquote class="testimonial-card">
+                <svg class="testimonial-card__quote-icon" viewBox="0 0 24 24" fill="currentColor" width="32" height="32" aria-hidden="true"><path d="M11 7V4H4v7h3c0 2.21-1.79 4-4 4v3c3.87 0 7-3.13 7-7h-3V7h4zm9 0V4h-7v7h3c0 2.21-1.79 4-4 4v3c3.87 0 7-3.13 7-7h-3V7h4z" opacity="0.15"/></svg>
+                <!-- TODO: REPLACE with actual testimonial -->
+                <p class="testimonial-card__text">"Working with Rexalon was a game-changer for our startup. They understood our vision from day one and delivered a complete brand identity and app that our users love. Highly recommended!"</p>
+                <footer class="testimonial-card__author">
+                  <div class="testimonial-card__avatar" aria-hidden="true">
+                    <svg viewBox="0 0 40 40" width="40" height="40"><circle cx="20" cy="20" r="20" fill="#E8EEF7"/><circle cx="20" cy="16" r="7" fill="#B3C5EA"/><path d="M6 36c0-8 6-14 14-14s14 6 14 14" fill="#B3C5EA"/></svg>
+                  </div>
+                  <div>
+                    <!-- TODO: REPLACE with actual client info -->
+                    <cite class="testimonial-card__name">[Client Name]</cite>
+                    <p class="testimonial-card__role">[Role], [Company Name]</p>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+
+            <!-- PLACEHOLDER TESTIMONIAL 3 -->
+            <div class="testimonial-slide" role="group" aria-roledescription="slide" aria-label="Testimonial 3 of 3">
+              <blockquote class="testimonial-card">
+                <svg class="testimonial-card__quote-icon" viewBox="0 0 24 24" fill="currentColor" width="32" height="32" aria-hidden="true"><path d="M11 7V4H4v7h3c0 2.21-1.79 4-4 4v3c3.87 0 7-3.13 7-7h-3V7h4zm9 0V4h-7v7h3c0 2.21-1.79 4-4 4v3c3.87 0 7-3.13 7-7h-3V7h4z" opacity="0.15"/></svg>
+                <!-- TODO: REPLACE with actual testimonial -->
+                <p class="testimonial-card__text">"The custom CRM dashboard Rexalon built for us has streamlined our entire operation. Their attention to detail and commitment to quality is outstanding. Great communication throughout the project."</p>
+                <footer class="testimonial-card__author">
+                  <div class="testimonial-card__avatar" aria-hidden="true">
+                    <svg viewBox="0 0 40 40" width="40" height="40"><circle cx="20" cy="20" r="20" fill="#E8EEF7"/><circle cx="20" cy="16" r="7" fill="#B3C5EA"/><path d="M6 36c0-8 6-14 14-14s14 6 14 14" fill="#B3C5EA"/></svg>
+                  </div>
+                  <div>
+                    <!-- TODO: REPLACE with actual client info -->
+                    <cite class="testimonial-card__name">[Client Name]</cite>
+                    <p class="testimonial-card__role">[Role], [Company Name]</p>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <div class="testimonials__controls">
+            <button class="testimonials__btn testimonials__prev" aria-label="Previous testimonial">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <div class="testimonials__dots" role="tablist" aria-label="Testimonial slides">
+              <button class="testimonials__dot active" role="tab" aria-selected="true" aria-label="Go to testimonial 1"></button>
+              <button class="testimonials__dot" role="tab" aria-selected="false" aria-label="Go to testimonial 2"></button>
+              <button class="testimonials__dot" role="tab" aria-selected="false" aria-label="Go to testimonial 3"></button>
+            </div>
+            <button class="testimonials__btn testimonials__next" aria-label="Next testimonial">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SECTION 12: CTA BANNER
+         ============================================================ -->
+    <section class="cta-banner" aria-label="Call to action">
+      <div class="container">
+        <h2 class="reveal">Ready to Build Something Great?</h2>
+        <p class="reveal">Let's turn your vision into a digital masterpiece. Get in touch and let's start building together.</p>
+        <a href="#contact" class="btn btn-primary reveal">Start Your Project</a>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SECTION 13: CONTACT
+         ============================================================ -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow reveal">Get In Touch</p>
+          <h2 class="reveal">Contact Us</h2>
+          <p class="section-header__subtitle reveal">Have a project in mind? Fill out the form below and we'll get back to you within 24 hours.</p>
+        </div>
+
+        <div class="contact__grid">
+          <!-- Contact Form -->
+          <div class="contact-form card reveal">
+            <!-- TODO: REPLACE form action with your Formspree/EmailJS/API endpoint -->
+            <!-- Fallback: mailto:hello@yourdomain.com -->
+            <form id="contact-form" action="https://formspree.io/f/PLACEHOLDER" method="POST" novalidate>
+              <div class="form-group">
+                <label for="contact-name">Full Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="contact-name" name="name" required autocomplete="name" placeholder="Your full name" minlength="2">
+                <span class="form-group__error" role="alert" aria-live="polite">Please enter your name (at least 2 characters).</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Email Address <span aria-hidden="true">*</span></label>
+                <input type="email" id="contact-email" name="email" required autocomplete="email" placeholder="you@example.com">
+                <span class="form-group__error" role="alert" aria-live="polite">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-phone">Phone Number</label>
+                <input type="tel" id="contact-phone" name="phone" autocomplete="tel" placeholder="+91 XXXXX XXXXX">
+                <span class="form-group__error" role="alert" aria-live="polite">Please enter a valid phone number (at least 10 digits).</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-service">Service You're Interested In <span aria-hidden="true">*</span></label>
+                <select id="contact-service" name="service" required>
+                  <option value="">Select a service…</option>
+                  <option value="Mobile App Development">Mobile App Development</option>
+                  <option value="Web Development">Web Development</option>
+                  <option value="Custom Software">Custom Software</option>
+                  <option value="UI/UX Design">UI/UX Design</option>
+                  <option value="Graphic Design">Graphic Design</option>
+                  <option value="Branding & Identity">Branding &amp; Identity</option>
+                  <option value="Digital Marketing Support">Digital Marketing Support</option>
+                  <option value="Support & Maintenance">Support &amp; Maintenance</option>
+                </select>
+                <span class="form-group__error" role="alert" aria-live="polite">Please select a service.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Project Details <span aria-hidden="true">*</span></label>
+                <textarea id="contact-message" name="message" required rows="5" placeholder="Tell us about your project…" minlength="10"></textarea>
+                <span class="form-group__error" role="alert" aria-live="polite">Please enter your message (at least 10 characters).</span>
+              </div>
+
+              <button type="submit" class="btn btn-blue contact-form__submit">Send Message</button>
+            </form>
+
+            <!-- Success State -->
+            <div class="form-success" aria-live="polite" hidden>
+              <svg viewBox="0 0 64 64" width="64" height="64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#E8EEF7"/><polyline points="20,34 28,42 44,24" fill="none" stroke="#0A3D9C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <h3>Message Sent!</h3>
+              <p>Thank you for reaching out. We'll get back to you within 24 hours.</p>
+            </div>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="contact__info reveal">
+            <h3>Let's Talk</h3>
+            <p class="contact__info-subtitle">Prefer a direct conversation? Reach out through any of these channels.</p>
+
+            <div class="contact__info-items">
+              <div class="contact__info-item">
+                <div class="contact__info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <!-- <span class="contact__info-label">Email</span> -->
+                  <!-- TODO: REPLACE with actual email -->
+                  <a href="mailto:rexalon.info@gmail.com" class="contact__info-value">rexalon.info@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact__info-item">
+                <div class="contact__info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <!-- <span class="contact__info-label">Phone / WhatsApp</span> -->
+                  <!-- TODO: REPLACE with actual phone number -->
+                  <a href="tel:+91 8848860570" class="contact__info-value">+91 8848860570</a>
+                </div>
+              </div>
+
+              <div class="contact__info-item">
+                <div class="contact__info-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <span class="contact__info-label"></span>
+                  <!-- TODO: REPLACE with actual address -->
+                  <span class="contact__info-value">Calicut India</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="contact__social">
+              <span class="contact__info-label">Follow Us</span>
+              <div class="contact__social-links">
+                <!-- TODO: REPLACE social URLs with actual links -->
+                <a href="https://facebook.com/PLACEHOLDER" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </a>
+                <a href="https://instagram.com/PLACEHOLDER" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                </a>
+                <a href="https://linkedin.com/company/PLACEHOLDER" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="https://twitter.com/PLACEHOLDER" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X" class="social-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Map Placeholder -->
+            <div class="contact__map" aria-label="Map location placeholder">
+              <!-- TODO: REPLACE this div's content with a Google Maps embed iframe -->
+              <!-- Example: <iframe src="https://www.google.com/maps/embed?..." width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+              <div class="contact__map-placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <p>Google Maps Embed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ============================================================
+       SECTION 14: FOOTER
+       ============================================================ -->
+  <footer class="footer" id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- Footer: About -->
+        <div class="footer__about">
+          <a href="#home" class="footer__logo" aria-label="Rexalon Digital Solutions — Home">
+            <svg viewBox="0 0 220 50" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="160" height="36">
+              <text x="0" y="30" font-family="'Montserrat', sans-serif" font-weight="800" font-size="30" fill="#FFFFFF" letter-spacing="1">Rexalon</text>
+              <text x="1" y="46" font-family="'Playfair Display', serif" font-weight="600" font-size="8.5" fill="rgba(255,255,255,0.5)" letter-spacing="4.5" textLength="140">DIGITAL SOLUTIONS</text>
+            </svg>
+          </a>
+          <p class="footer__desc">A full-service digital agency helping businesses grow through exceptional design, development, and branding. Design. Develop. Deliver.</p>
+          <div class="footer__social">
+            <!-- TODO: REPLACE social URLs -->
+            <a href="https://facebook.com/PLACEHOLDER" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://instagram.com/PLACEHOLDER" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://linkedin.com/company/PLACEHOLDER" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://twitter.com/PLACEHOLDER" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Footer: Quick Links -->
+        <div class="footer__column">
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer__links" role="list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Our Process</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Footer: Services -->
+        <div class="footer__column">
+          <h4 class="footer__heading">Services</h4>
+          <ul class="footer__links" role="list">
+            <li><a href="#services">Mobile App Development</a></li>
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">Custom Software</a></li>
+            <li><a href="#services">UI/UX Design</a></li>
+            <li><a href="#services">Graphic Design</a></li>
+            <li><a href="#services">Branding &amp; Identity</a></li>
+          </ul>
+        </div>
+
+        <!-- Footer: Contact -->
+        <div class="footer__column">
+          <h4 class="footer__heading">Contact</h4>
+          <ul class="footer__links footer__contact-links" role="list">
+            <!-- TODO: REPLACE with actual contact details -->
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>[Your City, State]</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer__bottom">
+        <p>&copy; 2026 Rexalon Digital Solutions. All rights reserved.</p>
+        <!-- TODO: REPLACE with actual links -->
+        <div class="footer__bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ===== FLOATING WHATSAPP BUTTON ===== -->
+  <!-- TODO: REPLACE WhatsApp number in href -->
+  <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer" class="whatsapp-fab" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="white" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- ===== BACK TO TOP BUTTON ===== -->
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+
+  <!-- ===== JavaScript ===== -->
+  <script src="js/main.js"></script>
+</body>
+</html>
