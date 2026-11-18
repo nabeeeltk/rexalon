@@ -1055,40 +1055,47 @@
 
 <!-- Put this before </body>. Remove any older submit handler for #contact-form. -->
 <script>
-(function () {
-  var form = document.getElementById('contact-form');
-  if (!form) return;
-  var success = document.querySelector('.form-success');
-  var btn = form.querySelector('button[type="submit"]');
-  var btnText = btn.textContent;
-  var SCRIPT_URL = 'PASTE_YOUR_WEB_APP_URL_HERE';
+  (function () {
+    var form = document.getElementById('contact-form');
+    if (!form) return;
+    var success = document.querySelector('.form-success');
+    var btn = form.querySelector('button[type="submit"]');
+    var btnText = btn.textContent;
 
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    if (!form.checkValidity()) { form.reportValidity(); return; }
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
 
-    btn.disabled = true;
-    btn.textContent = 'Sending…';
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
 
-    fetch(SCRIPT_URL, {
-      method: 'POST',
-      mode: 'no-cors',
-      body: new URLSearchParams(new FormData(form))
-    })
-      .then(function () {
-        form.hidden = true;
-        if (success) success.hidden = false;
-        form.reset();
+      btn.disabled = true;
+      btn.textContent = 'Sending…';
+
+      fetch(form.action, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
       })
-      .catch(function () {
-        alert('Could not send. Please email us at rexalon.info@gmail.com.');
-        btn.disabled = false;
-        btn.textContent = btnText;
-      });
-  });
-})();
+        .then(function (res) {
+          if (!res.ok) throw new Error('Request failed');
+          return res.json();
+        })
+        .then(function () {
+          form.hidden = true;
+          if (success) success.hidden = false;
+          form.reset();
+        })
+        .catch(function () {
+          alert('Sorry, something went wrong. Please try again or email us at rexalon.info@gmail.com.');
+          btn.disabled = false;
+          btn.textContent = btnText;
+        });
+    });
+  })();
 </script>
-</main>
+  </main>
 
 
   <!-- ============================================================
